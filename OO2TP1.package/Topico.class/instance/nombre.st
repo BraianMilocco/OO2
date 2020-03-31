@@ -1,0 +1,4 @@
+accessing
+nombre 
+	^self nombre
+	

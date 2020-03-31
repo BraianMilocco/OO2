@@ -1,0 +1,4 @@
+public
+total
+
+	^like + dislike
