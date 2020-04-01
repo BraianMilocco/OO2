@@ -1,5 +1,5 @@
 initialize
-inicializar: unNombre contrasenia: unaContrasenia sistema: unSistema
+initialize: unNombre contrasenia: unaContrasenia sistema: unSistema
 	
 	nombre:= unNombre .
 	contrasenia:= unaContrasenia .
