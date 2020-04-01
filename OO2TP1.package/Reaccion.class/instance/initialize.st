@@ -1,4 +1,4 @@
 as yet unclassified
-inicializar 	
+initialize 	
 	like:= 0. 
 	dislike:= 0.

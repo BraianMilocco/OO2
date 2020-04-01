@@ -6,10 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"usuarios",
-		"topicos",
-		"preguntas"
+		"texto",
+		"horaYFechaDeCreacion",
+		"reaccion"
 	],
-	"name" : "Sistema",
+	"name" : "Post",
 	"type" : "normal"
 }

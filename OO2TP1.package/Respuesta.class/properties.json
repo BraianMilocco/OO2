@@ -1,15 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "Post",
 	"category" : "OO2TP1",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"usuarios",
-		"topicos",
-		"preguntas"
-	],
-	"name" : "Sistema",
+	"instvars" : [ ],
+	"name" : "Respuesta",
 	"type" : "normal"
 }

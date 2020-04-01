@@ -1,3 +1,5 @@
 initialization
 initialize
-	usuarios := OrderedCollection new.
+	usuarios := Set new.
+	topicos := Set new.
+	preguntas := Set new.
