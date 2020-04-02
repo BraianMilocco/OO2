@@ -1,4 +1,4 @@
 public
 initialize
 horaYFechaDeCreacion := DateAndTime now.
-	reaccion := Reaccion new.
+	reacciones := Set new.
