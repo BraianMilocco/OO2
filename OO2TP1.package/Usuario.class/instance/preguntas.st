@@ -1,3 +1,3 @@
 public
-obtenerPreguntas
+preguntas
 	^preguntas

@@ -1,0 +1,4 @@
+accessing
+titulo
+	^self titulo
+	

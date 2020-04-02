@@ -1,4 +1,4 @@
 public
-eliminarPregunta: unaPregunta
+borrarPregunta: unaPregunta
 
 	preguntas delete: unaPregunta .

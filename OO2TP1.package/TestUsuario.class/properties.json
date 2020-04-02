@@ -1,15 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "OO2TP1-Clases",
+	"super" : "TestCase",
+	"category" : "OO2TP1-Test",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"usuario",
-		"fecha",
-		"esLike"
+		"usuario"
 	],
-	"name" : "Reaccion",
+	"name" : "TestUsuario",
 	"type" : "normal"
 }

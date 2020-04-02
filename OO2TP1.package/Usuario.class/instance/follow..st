@@ -1,4 +1,4 @@
 public
-agregarFollower: unFollower
+follow: unFollower
 
 	followers add: unFollower 

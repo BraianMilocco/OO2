@@ -1,4 +1,4 @@
-running
-testInitialize
-	self assert: reaccion like equals:  0.
-	self assert: reaccion dislike equals: 0
+tests
+testInitialize 
+	self assert: reaccion esLike equals: false. 
+	self assert: reaccion usuario equals: 'juan'.

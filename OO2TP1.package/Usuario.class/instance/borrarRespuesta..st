@@ -1,4 +1,4 @@
 public
-eliminarRespuesta: unaRespuesta
+borrarRespuesta: unaRespuesta
 
 	respuestas delete: unaRespuesta .

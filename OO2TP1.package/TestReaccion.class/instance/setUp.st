@@ -1,4 +1,6 @@
 running
 setUp
-	"Hooks that subclasses may override to define the fixture of test."
-	reaccion:= Reaccion new.
+	|usuario esLike|
+	usuario:= 'juan'.
+	esLike:= false.
+	reaccion:= Reaccion new initialize: usuario con: esLike.

@@ -1,4 +1,4 @@
 public
 preguntasRelevantes 
 	
-	^ self concatenarPreguntas asSet 
+	^ self collectPreguntas asSet 

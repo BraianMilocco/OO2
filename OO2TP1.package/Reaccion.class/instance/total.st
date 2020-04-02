@@ -1,4 +1,0 @@
-public
-total
-
-	^like + dislike

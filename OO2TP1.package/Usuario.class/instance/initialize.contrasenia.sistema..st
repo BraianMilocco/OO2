@@ -3,7 +3,7 @@ initialize: unNombre contrasenia: unaContrasenia sistema: unSistema
 	
 	nombre:= unNombre .
 	contrasenia:= unaContrasenia .
-	fechaYHoraCreacion:= DateAndTime.
+	fechaYHoraCreacion:= DateAndTime now.
 	topicos:= Set new.
 	sistema:= unSistema.
 	respuestas:= Set new.
