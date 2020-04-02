@@ -1,4 +1,5 @@
 public
 follow: unFollower
-
-	followers add: unFollower 
+	self == unFollower
+	
+	ifFalse: [followers add: unFollower ].
