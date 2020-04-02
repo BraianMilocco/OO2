@@ -1,6 +1,6 @@
 public
 totalReacciones
-	^self likes + self dislikes.
+	^self likes - self dislikes.
 	
 	
 	

@@ -8,7 +8,8 @@
 	"instvars" : [
 		"texto",
 		"horaYFechaDeCreacion",
-		"reacciones"
+		"reacciones",
+		"usuario"
 	],
 	"name" : "Post",
 	"type" : "normal"
