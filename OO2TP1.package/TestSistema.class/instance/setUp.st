@@ -1,3 +1,5 @@
 running
-setUp 
-	sistema:= Sistema new.
+setUp
+	sistema := Sistema new.
+
+	
