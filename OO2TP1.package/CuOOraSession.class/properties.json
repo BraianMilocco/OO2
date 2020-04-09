@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WASession",
+	"category" : "OO2TP1-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"user"
+	],
+	"name" : "CuOOraSession",
+	"type" : "normal"
+}

@@ -2,7 +2,9 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "OO2TP1-Clases",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"soleInstance"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "OO2TP1-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CuOOraHomeComponent",
+	"type" : "normal"
+}
