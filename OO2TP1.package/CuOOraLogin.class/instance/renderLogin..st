@@ -15,6 +15,7 @@ renderLogin: html
 				
 				html horizontalRule.
 			html paragraph: 'Don''t have an account?'.
-			html submitButton
+			html submitButton 
+
 				callback: [ self registerNewUser ];
 				with: 'Sign Up, it''s free!' ]

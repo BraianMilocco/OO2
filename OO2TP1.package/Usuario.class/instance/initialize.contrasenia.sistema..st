@@ -7,5 +7,5 @@ initialize: unNombre contrasenia: unaContrasenia sistema: unSistema
 	topicos:= Set new.
 	sistema:= unSistema.
 	respuestas:= Set new.
-	preguntas:= Set new.
+	preguntas:= OrderedCollection new.
 	followers := Set new.
