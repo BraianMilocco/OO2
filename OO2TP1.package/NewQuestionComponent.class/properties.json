@@ -1,15 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "AnObsoletePost",
-	"category" : "OO2TP1-Clases",
+	"super" : "WAComponent",
+	"category" : "OO2TP1-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"titulo",
-		"respuestas",
+		"texto",
 		"topicos"
 	],
-	"name" : "Preguntas",
+	"name" : "NewQuestionComponent",
 	"type" : "normal"
 }
