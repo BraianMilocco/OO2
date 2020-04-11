@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "AnObsoletePost",
+	"super" : "Post",
 	"category" : "OO2TP1-Clases",
 	"classinstvars" : [ ],
 	"pools" : [ ],

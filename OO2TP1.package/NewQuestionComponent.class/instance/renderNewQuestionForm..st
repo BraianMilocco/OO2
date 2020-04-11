@@ -11,7 +11,7 @@ renderNewQuestionForm: html
 		html textInput on: #topicos of: self.
 		html break. html break.
 		html submitButton 
-			callback: [ self ];
+			callback: [ self saveQuestion: titulo questionBody: texto topics: topicos  ];
 			with: 'Guardar'.
 			html anchor 
 			callback: [ self answer ];

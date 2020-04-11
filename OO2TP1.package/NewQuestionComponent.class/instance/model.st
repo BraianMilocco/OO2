@@ -1,0 +1,3 @@
+initialization
+model
+	^Sistema soleInstance.
