@@ -9,22 +9,22 @@ renderQuestion: html question: aQuestion
 	html break.
 	html text: 'Realizada por '.
 	html strong: aQuestion owner nombre.
-	
-	html text: ' | ' ,  (aQuestion respuestas size) asString , ' respuestas'.
-	
+	html break.
 	html
 		text:
-			aQuestion likes size asString , ' likes | '
-				, aQuestion dislikes size asString , ' dislikes'.
+			aQuestion likes asString , ' likes | '
+				, aQuestion dislikes asString , ' dislikes'.
+	html break.
+	html text: aQuestion respuestas size asString , ' respuestas'.
 	html break.
 	html anchor
-		callback: [  ];
+		callback: [ aQuestion like: aQuestion owner ];
 		with: 'Like'.
 	html text: ' | '.
 	html anchor
-		callback: [  ];
+		callback: [ aQuestion dislike: aQuestion owner ];
 		with: 'Dislike'.
 	html text: ' | '.
 	html anchor
-       callback:[self renderAnswer: aQuestion ];
-       with: 'responder'.
+		callback: [self seeQuestion: aQuestion];
+		with: 'Ver pregunta'
