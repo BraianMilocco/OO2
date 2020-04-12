@@ -6,7 +6,7 @@ renderNewAnswerForm: html
 		html break. html break.
 		html submitButton 
 			callback: [ self saveAnswer ];
-			with: 'Guardar'.
+			with: 'Responder'.
 			html anchor 
 			callback: [ self answer ];
 			with: 'Cancelar.'
