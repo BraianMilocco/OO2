@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "OO2TP1-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"userOfProfile"
+	],
+	"name" : "SeeUserProfileComponent",
+	"type" : "normal"
+}

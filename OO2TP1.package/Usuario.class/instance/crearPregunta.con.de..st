@@ -1,6 +1,6 @@
 public
 crearPregunta: unTitulo con: unTexto de: unTopico
 |preg|.
-preg:= Preguntas con: unTitulo conUn: unTexto de:unTopico deParte: self .
+preg:= Preguntas withTitle: unTitulo withBody: unTexto withTopics: unTopico fromUser: self. 
 preguntas add: preg.
 sistema guardarPregunta: preg.

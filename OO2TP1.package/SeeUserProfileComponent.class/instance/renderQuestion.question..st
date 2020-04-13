@@ -1,5 +1,6 @@
-initialization
+rendering
 renderQuestion: html question: aQuestion
+"codigo repetido"
 	html heading level3 with: aQuestion titulo.
 	html break.
 	html label: 'Topicos: '.
@@ -8,9 +9,7 @@ renderQuestion: html question: aQuestion
 		do: [ :topic | html text: (aQuestion topicos at: 1) ].
 	html break.
 	html text: 'Realizada por '.
-	html anchor 
-		callback:[ self seeProfile: aQuestion owner]; 
-		with: aQuestion owner nombre.
+	html strong: aQuestion owner nombre.
 	html break.
 	html
 		text:
@@ -20,13 +19,10 @@ renderQuestion: html question: aQuestion
 	html text: aQuestion respuestas size asString , ' respuestas'.
 	html break.
 	html anchor
-		callback: [ aQuestion like: aQuestion owner ];
+		callback: [ aQuestion like: aQuestion owner  ];
 		with: 'Like'.
 	html text: ' | '.
 	html anchor
 		callback: [ aQuestion dislike: aQuestion owner ];
 		with: 'Dislike'.
 	html text: ' | '.
-	html anchor
-		callback: [self seeQuestion: aQuestion];
-		with: 'Ver pregunta'
