@@ -2,20 +2,29 @@ initialization
 renderQuestion: html question: aQuestion
 	html heading level3 with: aQuestion titulo.
 	html break.
-	html label: 'Topicos: ' .
+	html label: 'Topicos: '.
 	"Por ahora esto solo imprime los topicos como un string, lo que hay que hacer despues es mostrar la lista de topicos separada por coma"
-	aQuestion topicos do: [ :topic | html text: (aQuestion topicos at: 1)].
+	aQuestion topicos
+		do: [ :topic | html text: (aQuestion topicos at: 1) ].
 	html break.
-	html text: 'Realizada por '. 
+	html text: 'Realizada por '.
 	html strong: aQuestion owner nombre.
-	html text: ' | ' ,  (aQuestion respuestas size) asString , ' respuestas'.
 	html break.
-	html text: (aQuestion likes size asString),  ' likes | ' ,  (aQuestion dislikes size asString) , ' dislikes'.
+	html
+		text:
+			aQuestion likes asString , ' likes | '
+				, aQuestion dislikes asString , ' dislikes'.
+	html break.
+	html text: aQuestion respuestas size asString , ' respuestas'.
 	html break.
 	html anchor
-	callback: [  ];
-	with: 'Like'.
+		callback: [ aQuestion like: aQuestion owner ];
+		with: 'Like'.
 	html text: ' | '.
-	html anchor 
-	callback: [  ];
-	with: 'Dislike'.
+	html anchor
+		callback: [ aQuestion dislike: aQuestion owner ];
+		with: 'Dislike'.
+	html text: ' | '.
+	html anchor
+		callback: [self seeQuestion: aQuestion];
+		with: 'Ver pregunta'

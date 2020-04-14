@@ -1,3 +1,3 @@
 as yet unclassified
 dislikes
-	^reactions do: [:reaction | reaction esLike not ] size.
+	^ (reactions select: [ :eachReaction | eachReaction esLike not]) size.
