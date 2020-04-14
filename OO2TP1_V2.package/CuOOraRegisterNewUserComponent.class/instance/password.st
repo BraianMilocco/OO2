@@ -1,0 +1,3 @@
+initialization
+password
+	^ password

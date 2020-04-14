@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "OO2TP1_V2-Class",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"date",
+		"text",
+		"reactions",
+		"user"
+	],
+	"name" : "PostCuOOra",
+	"type" : "normal"
+}

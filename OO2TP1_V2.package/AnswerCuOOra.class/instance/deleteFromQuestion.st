@@ -1,0 +1,3 @@
+initialization
+deleteFromQuestion
+	question deleteAnswer: self

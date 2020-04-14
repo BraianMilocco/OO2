@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "OO2TP1_V2-Class",
+	"classinstvars" : [
+		"soleInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"users",
+		"topics",
+		"questions"
+	],
+	"name" : "SystemCuOOra",
+	"type" : "normal"
+}

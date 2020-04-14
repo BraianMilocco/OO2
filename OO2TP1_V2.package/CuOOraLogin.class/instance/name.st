@@ -1,0 +1,4 @@
+private protocol
+name
+	^name
+	

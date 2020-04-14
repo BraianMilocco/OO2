@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "OO2TP1_V2-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title",
+		"text",
+		"topics"
+	],
+	"name" : "NewQuestionComponent",
+	"type" : "normal"
+}
