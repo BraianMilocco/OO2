@@ -13,11 +13,11 @@ renderSingleQuestion: html
 				, ' dislikes'.
 	html break.
 	html anchor
-		callback: [  ];
+		callback: [ self session user like: questionToSee  ];
 		with: 'Like'.
 	html text: ' | '.
 	html anchor
-		callback: [  ];
+		callback: [ self session user dislike: questionToSee ];
 		with: 'Dislike'.
 	html horizontalRule.
 	self renderAnswers: html.
