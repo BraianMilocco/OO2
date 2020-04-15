@@ -6,6 +6,6 @@ renderContentOn: html
 		with: 'Volver'.
 	html horizontalRule.
 	html heading level4 with: 'Tópico: ' , topic title.
-		html paragraph: ' Descripción '.
-		html center: self topic description.
+		html paragraph: ' Descripción: '.
+		html paragraph with:[html space: 20. html text: self topic description].
 		html break.

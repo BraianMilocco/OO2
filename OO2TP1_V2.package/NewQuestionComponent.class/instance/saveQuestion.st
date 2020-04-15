@@ -1,9 +1,12 @@
 initialization
 saveQuestion
-	"|newQuestion|
-	newQuestion := Preguntas withTitle: aTitle withBody: someText withTopics: someTopics fromUser: self session user."
-
-	self session user makeQuestion: title with: text of: topics.
-
+	|topColl|
+	topics isNil
+	ifTrue:[ ^self ].
+	topColl:= Set new.
+	topColl:= self listTopics.
+	
+	(topColl isEmpty)
+	ifTrue:[ ^self ].
+	self session user makeQuestion: title with: text of: topColl asSet.
 	self answer.
-	"solo para pushear de nuevo"

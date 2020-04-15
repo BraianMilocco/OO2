@@ -3,8 +3,9 @@ renderQuestion: html question:aQuestion
 	html heading level3 with: aQuestion title.
 	html break.
 	html label: 'Topicos: '.
-	"Por ahora esto solo imprime los topicos como un string, lo que hay que hacer despues es mostrar la lista de topicos separada por coma"
-	html text: (aQuestion topics at:1).
+	"Hay que hacer que cuando se crea una nueva pregunta devuelva una lista con los topicos y no una lista con los string de nombres como hace ahora."
+"	html text: (aQuestion topics at:1 title)."
+	"self renderTopics: aQuestion  with: html."
 	html break.
 	html text: 'Realizada por '.
 	html anchor 
