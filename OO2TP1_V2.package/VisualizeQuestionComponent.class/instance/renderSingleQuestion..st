@@ -2,11 +2,11 @@ initialization
 renderSingleQuestion: html
 	html heading level3 with: questionToSee title.
 	html break.
-	html text: (questionToSee topics at: 1).
 	html break.
 	html text: 'Realizada por '.
 	html strong: questionToSee user userName.
 	html break.
+	self renderTopics: questionToSee with: html. 
 	html
 		text:
 			questionToSee likes asString , ' | ' , questionToSee dislikes asString

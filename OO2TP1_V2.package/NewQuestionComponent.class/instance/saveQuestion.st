@@ -8,5 +8,5 @@ saveQuestion
 	
 	(topColl isEmpty)
 	ifTrue:[ ^self ].
-	self session user makeQuestion: title with: text of: topColl asSet.
+	self session user makeQuestion: title with: text of: topColl .
 	self answer.

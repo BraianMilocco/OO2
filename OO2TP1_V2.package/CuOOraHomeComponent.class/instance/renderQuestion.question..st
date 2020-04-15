@@ -5,7 +5,7 @@ renderQuestion: html question:aQuestion
 	html label: 'Topicos: '.
 	"Hay que hacer que cuando se crea una nueva pregunta devuelva una lista con los topicos y no una lista con los string de nombres como hace ahora."
 "	html text: (aQuestion topics at:1 title)."
-	"self renderTopics: aQuestion  with: html."
+	self renderTopics: aQuestion  with: html.
 	html break.
 	html text: 'Realizada por '.
 	html anchor 

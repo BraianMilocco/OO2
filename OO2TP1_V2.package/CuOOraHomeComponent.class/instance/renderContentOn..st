@@ -5,11 +5,5 @@ renderContentOn: html
 		paragraph: [ html anchor
 				callback: [ self logout ];
 				with: [ html button with: 'Logout' ] ].
-	html anchor
-        callback:[self call: NewQuestionComponent new];
-        with: 'Hacer una nueva pregunta!'.
-	html text: ' 	|	 '.
-	html anchor
-        callback:[self call:CuOOraCreateTopicComponent new];
-        with: 'CrearTopico'.
+	self renderOption: html.
 	self renderQuestions: html.
