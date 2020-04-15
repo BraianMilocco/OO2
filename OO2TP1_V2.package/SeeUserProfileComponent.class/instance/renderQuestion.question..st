@@ -26,3 +26,4 @@ renderQuestion: html question: aQuestion
 		callback: [ self session user like: aQuestion];
 		with: 'Dislike'.
 	html text: ' | '.
+	self putDeleteOption: aQuestion with: html.

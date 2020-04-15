@@ -1,0 +1,3 @@
+initialization
+model 	
+	^SystemCuOOra soleInstance 
