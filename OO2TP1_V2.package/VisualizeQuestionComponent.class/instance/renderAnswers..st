@@ -2,6 +2,9 @@ initialization
 renderAnswers: html
 "hacerlo mas ordenado"
 	html horizontalRule.
+		html anchor
+				callback: [ self newAnswer ];
+				with: [ html button with: 'responder' ] .	
 	(self questionToSee answers isEmpty)
 	ifTrue: [ html label: 'Esta pregunta no tiene respuestas']
 	ifFalse: [ 

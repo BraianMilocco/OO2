@@ -11,6 +11,3 @@ renderSingleQuestion: html
 	self renderAnswers: html.
 	html break.
 	html break.
-	html anchor
-		callback: [self newAnswer  ];
-		with: 'Agregar respuesta'
