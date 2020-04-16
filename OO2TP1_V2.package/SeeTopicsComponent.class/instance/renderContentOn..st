@@ -3,12 +3,12 @@ renderContentOn: html
 	html heading: 'CuOOra'.
 	html anchor
 		callback: [ self answer ];
-		with: 'Volver'.
+		with: [ html button with: 'volver' ].
 	html horizontalRule.
+	html heading level3 with: 'Topicos'.
 	html
 		unorderedList: [ self model topics
 				do: [ :each | 
-					html
-						listItem: [ html anchor
-								callback: [ self goToTopicsList:each ];
-								with: each title] ] ]
+						html paragraph:[ html anchor
+								callback: [ self goToTopicsList: each ];
+								with: each title. self buttonSeguirATop: each with: html.]  ] ]
