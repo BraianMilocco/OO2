@@ -10,10 +10,11 @@ renderContentOn: html
 				callback: [ self followOrNot ];
 				with: [ html button with: self whatOption ] ].
 	html horizontalRule.
-	html heading level4 with: 'Tópico: ' , topic title.
+	html heading level4 with: 'Título: ' , topic title.
 	html paragraph: ' Descripción: '.
 	html paragraph
 		with: [ html space: 20.
 			html text: self topic description ].
 	html break.
+	html horizontalRule .
 	self associatedQuestions: html
