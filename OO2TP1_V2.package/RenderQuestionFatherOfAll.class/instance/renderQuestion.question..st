@@ -1,15 +1,12 @@
-as yet unclassified
-renderQuestion: html question: aQuestion
-"codigo repetido"
+rendering
+renderQuestion: html question:aQuestion
 	html heading level3 with: aQuestion title.
 	html break.
 	html label: 'Topicos: '.
-	"Por ahora esto solo imprime los topicos como un string, lo que hay que hacer despues es mostrar la lista de topicos separada por coma"
-	aQuestion topics
-		do: [ :topic | html text: (aQuestion topics at: 1) ].
+	self renderTopics: aQuestion  with: html.
 	html break.
 	html text: 'Realizada por '.
-	html strong: aQuestion user userName.
+	self userLink:aQuestion user with: html.
 	html break.
 	html
 		text:
@@ -23,7 +20,14 @@ renderQuestion: html question: aQuestion
 		with: 'Like'.
 	html text: ' | '.
 	html anchor
-		callback: [ self session user like: aQuestion];
+		callback: [ self session user dislike: aQuestion ];
 		with: 'Dislike'.
 	html text: ' | '.
+	html anchor
+		callback: [self seeQuestion: aQuestion];
+		with: 'Ver pregunta'.
+	html text: ' | '.
+	html anchor 
+		callback: [ self renderAnswer: aQuestion ];
+		with: 'responder'.
 	self putDeleteOption: aQuestion with: html.

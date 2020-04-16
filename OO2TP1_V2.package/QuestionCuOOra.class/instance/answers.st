@@ -1,3 +1,3 @@
 adding
 answers 	
-	^answers
+	^answers asOrderedCollection .

@@ -3,7 +3,6 @@ saveQuestion
 	|topColl|
 	topics isNil
 	ifTrue:[ ^self ].
-	topColl:= Set new.
 	topColl:= self listTopics.
 	
 	(topColl isEmpty)

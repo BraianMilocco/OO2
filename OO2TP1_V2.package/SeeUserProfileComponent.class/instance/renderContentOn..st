@@ -2,16 +2,10 @@ as yet unclassified
 renderContentOn: html
 html heading: 'CuOOra 	-	 perfil de: ', userOfProfile userName .
 html horizontalRule.
-html
-	paragraph: [ html anchor
-						callback: [ self followOrUnfollow ];
-						with: [ html button with: self followOrNot  ].
-					html anchor
-						callback: [ self answer ];
-						with: [ html button with: 'volver' ] 
-		].
+self optionsLine: html.
 html horizontalRule.
 html text: 'Preguntas: '.
+html horizontalRule.
 (userOfProfile questions) isEmpty
-	ifTrue: [ html label: userOfProfile questions size ]
+	ifTrue: [ html label: 'Aun no tiene preguntas' ]
 	ifFalse: [ userOfProfile  questions do: [ :quest | self renderQuestion: html question: quest ] ].

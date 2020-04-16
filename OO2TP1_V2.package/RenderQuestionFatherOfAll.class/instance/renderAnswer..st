@@ -1,4 +1,4 @@
-initialization
+rendering
 renderAnswer: aQuestion
 	" pongo esto para poder pushearr"
 |answerModel|
