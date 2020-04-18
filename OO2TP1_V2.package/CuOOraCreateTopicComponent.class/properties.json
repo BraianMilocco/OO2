@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "WAComponent",
+	"super" : "GoodComponentLogoutoHeader",
 	"category" : "OO2TP1_V2-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],

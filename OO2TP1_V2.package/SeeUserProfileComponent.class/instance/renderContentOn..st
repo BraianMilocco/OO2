@@ -1,6 +1,6 @@
 as yet unclassified
 renderContentOn: html
-html heading: 'CuOOra 	-	 perfil de: ', userOfProfile userName .
+ self headerAndLogout:html..
 html horizontalRule.
 self optionsLine: html.
 html horizontalRule.

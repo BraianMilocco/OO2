@@ -1,7 +1,6 @@
 initialization
 renderContentOn: html
-	html heading: 'CuOOra - '.
-	html heading level3 with: self session user userName, '	  está On-Line'.
+ self headerAndLogout:html.
 	self renderOption: html.
 	html space: 30.
 	html anchor
@@ -10,7 +9,5 @@ renderContentOn: html
 	html space: 3.
 	html text: '|'.
 	html space: 3.
-	html anchor
-				callback: [ self logout ];
-				with: [ html button with: 'Logout' ] .
+
 	self renderQuestions: html.

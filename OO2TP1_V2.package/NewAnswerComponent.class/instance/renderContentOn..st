@@ -1,6 +1,6 @@
 accessing
 renderContentOn: html
-	html heading: 'CuOOra'.
+ self headerAndLogout:html.
 	html horizontalRule.
 	self renderQuestionToBeAnswered: html.
 	self renderNewAnswerForm: html.

@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "GoodComponentLogoutoHeader",
+	"super" : "WAComponent",
 	"category" : "OO2TP1_V2-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "RenderQuestionFatherOfAll",
+	"name" : "GoodComponentLogoutoHeader",
 	"type" : "normal"
 }

@@ -1,6 +1,6 @@
 initialization
 renderContentOn: html
-	html heading: 'CuOOra'.
+ self headerAndLogout:html.
 	html anchor
 		callback: [ self answer ];
 		with: [ html button with: 'volver' ].

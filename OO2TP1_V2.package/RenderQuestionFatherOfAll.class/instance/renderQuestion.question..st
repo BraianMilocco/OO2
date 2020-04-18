@@ -1,5 +1,6 @@
 rendering
 renderQuestion: html question:aQuestion
+
 	html heading level3 with: aQuestion title.
 	html break.
 	html label: 'Topicos: '.

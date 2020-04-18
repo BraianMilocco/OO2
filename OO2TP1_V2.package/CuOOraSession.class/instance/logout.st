@@ -1,3 +1,4 @@
 testing
 logout
-	user := nil
+	user := nil.
+	self requestContext redirectTo: self application url.

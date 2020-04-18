@@ -1,6 +1,6 @@
 initialization
 renderContentOn: html
-	html heading: 'CuOOra'.
+ self headerAndLogout:html.
 	html horizontalRule.
 	html heading level3 with: 'Nueva pregunta'.
 	html horizontalRule.
