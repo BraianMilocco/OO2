@@ -1,7 +1,7 @@
 tests
 testDeleteQuestion
 "No Entiendo por qué no funca, si podés arreeglarlo"
-|q|
+	|q|
 	q:= answer question.
 	answer deleteQuestion.
 

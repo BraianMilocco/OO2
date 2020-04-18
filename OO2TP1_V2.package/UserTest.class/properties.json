@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "OO2TP1_V2-Test!!!!",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"user",
+		"sys",
+		"dummyAnswer",
+		"dummyTopic",
+		"dummyQuestion"
+	],
+	"name" : "UserTest",
+	"type" : "normal"
+}
