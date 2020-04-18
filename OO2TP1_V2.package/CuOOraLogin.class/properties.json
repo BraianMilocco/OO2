@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"name",
-		"password"
+		"password",
+		"wrongLogin"
 	],
 	"name" : "CuOOraLogin",
 	"type" : "normal"

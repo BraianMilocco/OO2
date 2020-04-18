@@ -11,11 +11,10 @@ renderContentOn: html
 			html submitButton
 				callback: [ self login ];
 				with: 'Sign In'.
-				
-				
-				html horizontalRule.
+			wrongLogin
+				ifTrue: [ html paragraph with: 'Contrasenia incorrecta. Intenta de nuevo!' ].
+			html horizontalRule.
 			html paragraph: 'Don''t have an account?'.
-			html submitButton 
-
+			html submitButton
 				callback: [ self registerNewUser ];
 				with: 'Sign Up, it''s free!' ]

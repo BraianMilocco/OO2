@@ -6,7 +6,7 @@ login
 		ifNotNil: [ self session login: usr.
 			home := CuOOraHomeComponent new.
 			self call: home ].
-	
+	wrongLogin := true.
 		
 	name := nil.
 	password := nil
