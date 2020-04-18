@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "OO2TP1_V2-Test!!!!",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"quest",
+		"system"
+	],
+	"name" : "QuestionTest",
+	"type" : "normal"
+}
