@@ -8,4 +8,4 @@ html text: 'Preguntas: '.
 html horizontalRule.
 (userOfProfile questions) isEmpty
 	ifTrue: [ html label: 'Aun no tiene preguntas' ]
-	ifFalse: [ userOfProfile  questions do: [ :quest | self renderQuestion: html question: quest ] ].
+	ifFalse: [ userOfProfile  questions do: [ :quest | self renderQuestion: html question: quest  ] ].

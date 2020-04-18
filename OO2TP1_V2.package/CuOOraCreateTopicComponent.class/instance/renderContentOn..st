@@ -1,5 +1,6 @@
 initialization
 renderContentOn: html
+ self headerAndLogout:html.
 	html form: [ 
 		html label: 'Titulo  '.
 		html textInput on: #title of: self.

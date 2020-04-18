@@ -7,4 +7,4 @@ renderTopics: aQuestion with: html
 	aQuestion topics
 		do: [ :each | html anchor
 				callback: [ self goToTopicPage: each ];
-				with:  each title  ]
+				with:  each title. html space.html text: '|'. html space.  ]

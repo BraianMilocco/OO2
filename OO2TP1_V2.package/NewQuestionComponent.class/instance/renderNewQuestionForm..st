@@ -5,11 +5,13 @@ renderNewQuestionForm: html
 		html textInput on: #title of: self.
 		html break. html break.
 		html label: 'Texto  '.
+
 		html textInput on: #text of: self.
 		html break. html break.
 		html label: 'Topicos      (escribalos entre ",")'.
 		html textInput on: #topics of: self.
 		html break.
+		html paragraph: 'El texto le puede servir para especificar su pregunta, solo se vera cuando entren a la misma, no en el home'.
 		html paragraph: '(Recuerde ver los tópicos existentes en el sistema antes de anotarlos, en caso de no existir, el mismo no se agregará) ' .
 		html paragraph: [ html anchor
 			 callback:[ self call: SeeTopicsComponent new];
