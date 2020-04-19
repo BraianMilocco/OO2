@@ -1,3 +1,3 @@
 adding
 answers 	
-	^answers asOrderedCollection .
+	^answers asSortedCollection: [:each :each2 | each totalPoints < each2 totalPoints].

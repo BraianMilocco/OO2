@@ -23,4 +23,4 @@ renderQuestion: html question:aQuestion
 	html anchor 
 		callback: [ self renderAnswer: aQuestion ];
 		with: 'responder'.
-	self putDeleteOption: aQuestion with: html.
+	self putDeleteOption: aQuestion with: html. html horizontalRule.

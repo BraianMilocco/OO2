@@ -6,8 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"answer"
+		"dummyQuestion",
+		"dummyUser",
+		"sys",
+		"dummyTopic"
 	],
-	"name" : "AnswerTest",
+	"name" : "PostCase",
 	"type" : "normal"
 }
